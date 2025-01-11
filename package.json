@@ -1,0 +1,17 @@
+{
+  "name": "mcp-demo",
+  "version": "0.1.0",
+  "description": "Simple MCP server demo",
+  "bin": {
+    "mcp-demo": "server.js"
+  },
+  "main": "server.js",
+  "scripts": {
+    "dev": "npx @modelcontextprotocol/inspector node server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "mcp-js-server": "^0.1.3"
+  }
+}
